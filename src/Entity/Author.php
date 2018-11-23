@@ -7,7 +7,7 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Author
+ * author
  *
  * @ORM\Table(name="author")
  * @ORM\Entity
@@ -45,7 +45,7 @@ class Author
     private $books;
 
     /**
-     * Author constructor.
+     * author constructor.
      */
     public function __construct()
     {
